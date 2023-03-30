@@ -23,6 +23,7 @@ export default function Home() {
       return(<>
         <p>Book Now!</p>
         <Web3Button
+          className={styles.Web3Button}
           contractAddress={"0x082aDC578725C9635F0c03D54B418eB7c0F8b200"}
           action={() => mutateAsync([])}>
           {"Book"}
@@ -41,7 +42,7 @@ export default function Home() {
     <div className={styles.theWholeThing}>
       <div className={styles.textPart}>
       <h1>VIRTUAL <span>CONCERT</span></h1>
-        <p>_0x416B68696C_ INVITES YOU</p>
+        {/* <p>_0x416B68696C_ INVITES YOU</p> */}
         <h2>{numberOfSeatsBooked<maxNumberOfSeats?"Bookings Open":"Bookings Closed"}!</h2>
         <p>{numberOfSeatsBooked}/{maxNumberOfSeats} Filled!</p>
       </div>
