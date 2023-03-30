@@ -1,4 +1,4 @@
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
@@ -116,4 +116,12 @@
 }
 .logo img {
   filter: invert(1);
+} */
+
+.bookingContainer{
+  width:40vw;
+  height:50vh;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  color: black;
 }
