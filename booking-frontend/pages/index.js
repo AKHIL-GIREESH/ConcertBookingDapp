@@ -1,7 +1,9 @@
-import { ConnectWallet } from "@thirdweb-dev/react";
+import { ConnectWallet, useContract } from "@thirdweb-dev/react";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+
+  const {contract} = useContract("0x082aDC578725C9635F0c03D54B418eB7c0F8b200")
   return (
     <>
       <h1>Concert</h1>
