@@ -3,7 +3,13 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
+      Hello World
+    </>
+  );
+}
+
+{/* <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://thirdweb.com/">thirdweb</a>!
@@ -47,6 +53,4 @@ export default function Home() {
           </a>
         </div>
       </main>
-    </div>
-  );
-}
+    </div> */}
